@@ -33,7 +33,8 @@ LF：换行符号，对应的编码：10
 
 2）消息头：
 消息头由若干行组成，每行都以CRLF结尾.每一行为一个具体的消息头内容.
-格式为： name : value(CRLF)
+格式为： 
+name: value(CRLF)
 Host: localhost:8080(CRLF)
 Connection: keep-alive(CRLF)
 Upgrade-Insecure-Requests: 1 (CRLF)
